@@ -1,0 +1,8 @@
+#ifndef _ECHO_IDL_
+#define _ECHO_IDL_
+
+interface Echo {
+  string echoString(in string mesg);
+};
+
+#endif
