@@ -1,20 +1,11 @@
 #include "echo.hh"
 
 #ifdef HAVE_STD
-#include <iostream>
-using namespace std;
+  #include <iostream>
+  using namespace std;
 #else
-#include <iostream.h>
+  #include <iostream.h>
 #endif
-//
-//#ifdef HAVE_STD
-//#include <iostream>
-//using namespace std;
-//#else
-//#include <iostream.h>
-//#endif
-
-
 
 
 static void hello(Echo_ptr e)
