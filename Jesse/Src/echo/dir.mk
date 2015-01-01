@@ -26,7 +26,7 @@ eg3_clt    = $(patsubst %,$(BinPattern),eg3_clt)
 
 
 #all:: $(eg1) $(eg2_impl) $(eg2_clt)  $(eg3_impl) $(eg3_clt) $(eg3_tieimpl)
-all:: $(eg1) $(eg2_clt)
+all:: $(eg1) $(eg2_impl) $(eg2_clt)
 
 clean::
 	$(RM) $(eg1) $(eg2_impl) $(eg2_clt) $(eg3_impl) $(eg3_clt) \
