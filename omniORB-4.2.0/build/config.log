@@ -27,17 +27,12 @@ uname -v = #1 SMP Debian 3.14.5-1kali1 (2014-06-07)
 /usr/bin/oslevel       = unknown
 /bin/universe          = unknown
 
-PATH: /usr/local/sbin
-PATH: /usr/sbin
-PATH: /sbin
 PATH: /home/omniORB/bin
 PATH: /usr/local/bin
 PATH: /usr/bin
 PATH: /bin
 PATH: /usr/local/games
 PATH: /usr/games
-PATH: /opt/slickedit/bin
-PATH: .
 
 
 ## ----------- ##
@@ -1193,7 +1188,7 @@ configure:6649: $? = 0
 configure:6649: result: yes
 configure:6649: checking for insinff
 configure:6649: gcc -o conftest -O   conftest.c  >&5
-/tmp/ccRf2Esd.o: In function `main':
+/tmp/ccmFkZgG.o: In function `main':
 conftest.c:(.text+0x7): undefined reference to `insinff'
 collect2: error: ld returned 1 exit status
 configure:6649: $? = 1
@@ -1357,7 +1352,7 @@ configure:6661: $? = 0
 configure:6661: result: yes
 configure:6661: checking for stricmp
 configure:6661: gcc -o conftest -O   conftest.c  >&5
-/tmp/ccco91pg.o: In function `main':
+/tmp/ccjq6gAJ.o: In function `main':
 conftest.c:(.text+0x7): undefined reference to `stricmp'
 collect2: error: ld returned 1 exit status
 configure:6661: $? = 1
