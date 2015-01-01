@@ -28,3 +28,12 @@ alias lf='ls -F'
 set -o vi
 export PATH=$HOME/bin:/usr/local/sbin:/usr/sbin:/sbin:$PATH:/opt/slickedit/bin:.
 
+#AIX library path
+export LIBPATH=$HOME/lib:$LIBPATH
+
+#HP-UX library path
+export SHLIB_PATH=$HOME/lib:$SHLIB_PATH
+
+#Linux and Solaris library path
+export LD_LIBRARY_PATH=$HOME/lib:$LD_LIBRARY_PATH
+
